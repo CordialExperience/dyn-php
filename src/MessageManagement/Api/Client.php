@@ -26,7 +26,7 @@ class Client extends BaseClient
     protected function buildRequest($path)
     {
         $request = new Request();
-        $request->setUri('https://emailapi.dynect.net/rest/json'.$path);
+        $request->setUri('https://api.email.dynect.net/rest/json'.$path);
 
         return $request;
     }
